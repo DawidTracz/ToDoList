@@ -14,6 +14,7 @@ public class ToDoListApplication  extends SpringBootServletInitializer {
 		SpringApplication.run(ToDoListApplication.class, args);
 	}
 
+
 	@Bean
 	public ServletRegistrationBean h2servletRegistration(){
 		ServletRegistrationBean registrationBean = new ServletRegistrationBean( new WebServlet());
