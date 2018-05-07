@@ -17,4 +17,28 @@ public class Task {
 
     @Column(name = "flagId", unique = true, nullable = false, length=6)
     private int flagId;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getFlagName() {
+        return flagName;
+    }
+
+    public void setFlagName(String flagName) {
+        this.flagName = flagName;
+    }
+
+    public int getFlagId() {
+        return flagId;
+    }
+
+    public void setFlagId(int flagId) {
+        this.flagId = flagId;
+    }
 }

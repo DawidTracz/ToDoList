@@ -46,4 +46,12 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public int getToDoId() {
+        return toDoId;
+    }
+
+    public void setToDoId(int toDoId) {
+        this.toDoId = toDoId;
+    }
 }
