@@ -19,6 +19,10 @@ public class User {
     @Column(name = "password", nullable = false, length=35)
     private String password;
 
+    @Column(name = "TodoId", unique = true, nullable = false, length=6)
+    private int toDoId;
+
+
     public int getId() {
         return id;
     }
